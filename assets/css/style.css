@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Nanum+Myeongjo&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
+body {
     box-sizing: border-box;
     font-family: 'Cormorant Garamond', serif;
     font-family: 'Nanum Myeongjo', serif;
@@ -51,6 +49,7 @@ nav ul li a {
 nav ul li a:hover {
     color: rgb(30, 148, 61);
     transition: .3s;
+    text-decoration: none;
 }
 
 button {
@@ -67,4 +66,16 @@ button {
 button:hover {
     transform: scale(1.1);
     cursor: pointer;
+}
+
+.jumbotron {
+    background-color: transparent;
+    color: white;
+}
+
+.centered-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
